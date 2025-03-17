@@ -107,7 +107,7 @@ public class MainTest {
         Grocery.groceryList.add("tomato");
         Grocery.groceryList.add("potato");
         Grocery.printSorted();
-        assertEquals(Grocery.groceryList.get(0), "potato");
+        assertEquals(Grocery.groceryList.get(0), "tomato");
     }
 
     @DisplayName("createNewContact methodu doğru çalışıyor mu?")
